@@ -1,0 +1,24 @@
+﻿@model Guia1MarianaE.Models.Numeros
+@{
+    ViewData["Title"] = "Index";
+    List<SelectListItem> num = (List<SelectListItem>)ViewBag.Numeros;
+}
+
+@using (Html.BeginForm("Index", "Numeros", FormMethod.Post))
+{
+
+    <div class="row">
+        <div class="col-md-4">
+            <div class="form-group">
+                <label class="control-label"> Select Numero</label>
+
+            
+                @Html.DropDownListFor(m => m.num, new SelectList(num, "Value", "Text"), new { @id = "num", @class = "form-control" })
+
+                <input type="submit" value="Calcular">
+
+            </div>
+        </div>
+    </div>
+   
+}

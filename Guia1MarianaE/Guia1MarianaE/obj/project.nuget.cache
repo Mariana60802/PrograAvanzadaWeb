@@ -1,0 +1,12 @@
+{
+  "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "ZfGvocONn0hyTypbmIJEUhcDtuXgnQyeEZRnpGKrFqdDdu91rl1dNq3w1DV0PZNPmj1sD8bbCuZCnssuMDJOLQ==",
+=======
+  "dgSpecHash": "ZJP7d2DV1P5+nLYRfOo6rFgiiBfnHa24Ox0zHOHXYkQztCQR5xpc+0Ay6l/OtMaOxGoKP7NDDWMDLZceTMjKHQ==",
+>>>>>>> 27a5266a02a76132557dc5b97c2db00edf68f6a8
+  "success": true,
+  "projectFilePath": "C:\\Users\\ellis\\Source\\Repos\\PrograAvanzadaMarianaEllis\\Guia1MarianaE\\Guia1MarianaE\\Guia1MarianaE.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+}
