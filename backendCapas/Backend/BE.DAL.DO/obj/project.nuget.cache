@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IcT1CTEY592K/68k1TMP2nZvBgowTN61l77s2HxoFtYo0Hol6J2dNiqOLPFb2/Rpi10v4ZWtG5PsSl+3Jkq4BA==",
+  "dgSpecHash": "GdMWsi+PZN+9u6alMtxcu5YGtXRyTDncwZRV8Fl9AW6bIsqJ6QkqdkxfRZ3Utfw4KbRaZI8M0UAZe/ZvY8WTJQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ellis\\source\\repos\\PrograAvanzadaMarianaEllis\\backendCapas\\Backend\\BE.DAL.DO\\BE.DAL.DO.csproj",
+  "projectFilePath": "C:\\Users\\ellis\\OneDrive\\Documentos\\Mariana\\Setimo Cuatri\\PrograAvanzadaWeb\\backendCapas\\Backend\\BE.DAL.DO\\BE.DAL.DO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ellis\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ellis\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",

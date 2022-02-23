@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4OttE4Zkb6tT5io70GWW4tNBUAVR3nYyOIkQfU/5m1Y/F1DwD8eddbf/RS4MJyFBCRItULyCIL/dCl6KCkumzg==",
+  "dgSpecHash": "J1z0PCx5eUbs7QxLjgjxZ0pC2mkde9KiIQukVwHby8Ym31M3ClbYYHn4QcWQR4rSqGUrhi8MFdmrfYq07OFYuA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ellis\\source\\repos\\PrograAvanzadaMarianaEllis\\backendCapas\\Backend\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\ellis\\OneDrive\\Documentos\\Mariana\\Setimo Cuatri\\PrograAvanzadaWeb\\backendCapas\\Backend\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ellis\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ellis\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

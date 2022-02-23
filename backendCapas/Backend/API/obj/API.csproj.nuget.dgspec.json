@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ellis\\source\\repos\\PrograAvanzadaMarianaEllis\\backendCapas\\Backend\\API\\API.csproj": {}
+    "C:\\Users\\ellis\\OneDrive\\Documentos\\Mariana\\Setimo Cuatri\\PrograAvanzadaWeb\\backendCapas\\Backend\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ellis\\source\\repos\\PrograAvanzadaMarianaEllis\\backendCapas\\Backend\\API\\API.csproj": {
+    "C:\\Users\\ellis\\OneDrive\\Documentos\\Mariana\\Setimo Cuatri\\PrograAvanzadaWeb\\backendCapas\\Backend\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ellis\\source\\repos\\PrograAvanzadaMarianaEllis\\backendCapas\\Backend\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\ellis\\OneDrive\\Documentos\\Mariana\\Setimo Cuatri\\PrograAvanzadaWeb\\backendCapas\\Backend\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\ellis\\source\\repos\\PrograAvanzadaMarianaEllis\\backendCapas\\Backend\\API\\API.csproj",
+        "projectPath": "C:\\Users\\ellis\\OneDrive\\Documentos\\Mariana\\Setimo Cuatri\\PrograAvanzadaWeb\\backendCapas\\Backend\\API\\API.csproj",
         "packagesPath": "C:\\Users\\ellis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ellis\\source\\repos\\PrograAvanzadaMarianaEllis\\backendCapas\\Backend\\API\\obj\\",
+        "outputPath": "C:\\Users\\ellis\\OneDrive\\Documentos\\Mariana\\Setimo Cuatri\\PrograAvanzadaWeb\\backendCapas\\Backend\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ellis\\AppData\\Roaming\\NuGet\\NuGet.Config",

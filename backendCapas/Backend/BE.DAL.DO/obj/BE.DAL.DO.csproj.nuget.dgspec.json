@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ellis\\source\\repos\\PrograAvanzadaMarianaEllis\\backendCapas\\Backend\\BE.DAL.DO\\BE.DAL.DO.csproj": {}
+    "C:\\Users\\ellis\\OneDrive\\Documentos\\Mariana\\Setimo Cuatri\\PrograAvanzadaWeb\\backendCapas\\Backend\\BE.DAL.DO\\BE.DAL.DO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ellis\\source\\repos\\PrograAvanzadaMarianaEllis\\backendCapas\\Backend\\BE.DAL.DO\\BE.DAL.DO.csproj": {
+    "C:\\Users\\ellis\\OneDrive\\Documentos\\Mariana\\Setimo Cuatri\\PrograAvanzadaWeb\\backendCapas\\Backend\\BE.DAL.DO\\BE.DAL.DO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ellis\\source\\repos\\PrograAvanzadaMarianaEllis\\backendCapas\\Backend\\BE.DAL.DO\\BE.DAL.DO.csproj",
+        "projectUniqueName": "C:\\Users\\ellis\\OneDrive\\Documentos\\Mariana\\Setimo Cuatri\\PrograAvanzadaWeb\\backendCapas\\Backend\\BE.DAL.DO\\BE.DAL.DO.csproj",
         "projectName": "BE.DAL.DO",
-        "projectPath": "C:\\Users\\ellis\\source\\repos\\PrograAvanzadaMarianaEllis\\backendCapas\\Backend\\BE.DAL.DO\\BE.DAL.DO.csproj",
+        "projectPath": "C:\\Users\\ellis\\OneDrive\\Documentos\\Mariana\\Setimo Cuatri\\PrograAvanzadaWeb\\backendCapas\\Backend\\BE.DAL.DO\\BE.DAL.DO.csproj",
         "packagesPath": "C:\\Users\\ellis\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ellis\\source\\repos\\PrograAvanzadaMarianaEllis\\backendCapas\\Backend\\BE.DAL.DO\\obj\\",
+        "outputPath": "C:\\Users\\ellis\\OneDrive\\Documentos\\Mariana\\Setimo Cuatri\\PrograAvanzadaWeb\\backendCapas\\Backend\\BE.DAL.DO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ellis\\AppData\\Roaming\\NuGet\\NuGet.Config",

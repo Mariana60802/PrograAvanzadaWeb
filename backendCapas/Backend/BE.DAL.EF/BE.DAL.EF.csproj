@@ -17,4 +17,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\API\API.csproj" />
+    <ProjectReference Include="..\BE.DAL.DO\BE.DAL.DO.csproj" />
+  </ItemGroup>
+
 </Project>
