@@ -1,0 +1,13 @@
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.Repository\bin\Debug\netcoreapp3.1\BE.DAL.Repository.deps.json
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.Repository\bin\Debug\netcoreapp3.1\BE.DAL.Repository.runtimeconfig.json
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.Repository\bin\Debug\netcoreapp3.1\BE.DAL.Repository.runtimeconfig.dev.json
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.Repository\bin\Debug\netcoreapp3.1\BE.DAL.Repository.dll
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.Repository\bin\Debug\netcoreapp3.1\BE.DAL.Repository.pdb
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.Repository\obj\Debug\netcoreapp3.1\BE.DAL.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.Repository\obj\Debug\netcoreapp3.1\BE.DAL.Repository.AssemblyInfoInputs.cache
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.Repository\obj\Debug\netcoreapp3.1\BE.DAL.Repository.AssemblyInfo.cs
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.Repository\obj\Debug\netcoreapp3.1\BE.DAL.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.Repository\obj\Debug\netcoreapp3.1\BE.DAL.Repository.dll
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.Repository\obj\Debug\netcoreapp3.1\BE.DAL.Repository.pdb
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.Repository\obj\Debug\netcoreapp3.1\BE.DAL.Repository.genruntimeconfig.cache
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.Repository\obj\Debug\netcoreapp3.1\BE.DAL.Repository.csproj.AssemblyReference.cache

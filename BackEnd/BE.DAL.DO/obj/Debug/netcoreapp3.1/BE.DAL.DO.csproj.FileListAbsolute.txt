@@ -1,0 +1,12 @@
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.DO\bin\Debug\netcoreapp3.1\BE.DAL.DO.deps.json
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.DO\bin\Debug\netcoreapp3.1\BE.DAL.DO.runtimeconfig.json
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.DO\bin\Debug\netcoreapp3.1\BE.DAL.DO.runtimeconfig.dev.json
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.DO\bin\Debug\netcoreapp3.1\BE.DAL.DO.dll
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.DO\bin\Debug\netcoreapp3.1\BE.DAL.DO.pdb
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.DO\obj\Debug\netcoreapp3.1\BE.DAL.DO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.DO\obj\Debug\netcoreapp3.1\BE.DAL.DO.AssemblyInfoInputs.cache
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.DO\obj\Debug\netcoreapp3.1\BE.DAL.DO.AssemblyInfo.cs
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.DO\obj\Debug\netcoreapp3.1\BE.DAL.DO.csproj.CoreCompileInputs.cache
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.DO\obj\Debug\netcoreapp3.1\BE.DAL.DO.dll
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.DO\obj\Debug\netcoreapp3.1\BE.DAL.DO.pdb
+C:\Users\Yorleny\progra_avanzada_web\BackEndCapas\BackEnd\BE.DAL.DO\obj\Debug\netcoreapp3.1\BE.DAL.DO.genruntimeconfig.cache
