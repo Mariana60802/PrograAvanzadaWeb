@@ -2,24 +2,25 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 
 namespace BE.DAL.Repository
 {
-    public class Repository<T> : IRepository<T> where T :class
+    public class Repository<T> : IRepository<T> where T : class
     {
         protected readonly NDbContext dbContext;
-
         public Repository(NDbContext _dbContext)
         {
             dbContext = _dbContext;
         }
+
         public void AddRange(IEnumerable<T> t)
         {
             dbContext.Set<T>().AddRange(t);
         }
 
-        public System.Linq.IQueryable<T> AsQueryble()
+        public IQueryable<T> AsQueryble()
         {
             return dbContext.Set<T>().AsQueryable();
         }
@@ -33,11 +34,10 @@ namespace BE.DAL.Repository
         {
             try
             {
-                dbContext.Entry<T>(t).State =   Microsoft.EntityFrameworkCore.EntityState.Deleted;
+                dbContext.Entry<T>(t).State = Microsoft.EntityFrameworkCore.EntityState.Deleted;
             }
             catch (Exception ee)
             {
-
                 throw;
             }
         }
@@ -47,7 +47,7 @@ namespace BE.DAL.Repository
             return dbContext.Set<T>();
         }
 
-        public T GetOne(System.Linq.Expressions.Expression<Func<T, bool>> predicado)
+        public T GetOne(Expression<Func<T, bool>> predicado)
         {
             return dbContext.Set<T>().Where(predicado).FirstOrDefault();
         }
@@ -61,7 +61,7 @@ namespace BE.DAL.Repository
         {
             try
             {
-                if(dbContext.Entry<T>(t).State == Microsoft.EntityFrameworkCore.EntityState.Detached)
+                if (dbContext.Entry<T>(t).State == Microsoft.EntityFrameworkCore.EntityState.Detached)
                 {
                     dbContext.Entry<T>(t).State = Microsoft.EntityFrameworkCore.EntityState.Added;
                 }
@@ -79,10 +79,10 @@ namespace BE.DAL.Repository
 
         public void RemoveRange(IEnumerable<T> t)
         {
-            dbContext.Set<T>().Remove((T)t);
+            dbContext.Set<T>().RemoveRange(t);
         }
 
-        public IEnumerable<T> Search(System.Linq.Expressions.Expression<Func<T, bool>> predicado)
+        public IEnumerable<T> Search(Expression<Func<T, bool>> predicado)
         {
             return dbContext.Set<T>().Where(predicado);
         }
@@ -96,19 +96,17 @@ namespace BE.DAL.Repository
                     dbContext.Set<T>().Attach(t);
                 }
                 dbContext.Entry<T>(t).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
-
             }
             catch (Exception)
             {
 
                 throw;
-
             }
         }
 
         public void UpdateRange(IEnumerable<T> t)
         {
-            dbContext.Set<T>().AddRange(t);
+            dbContext.Set<T>().UpdateRange(t);
         }
     }
 }

@@ -3,21 +3,18 @@ using System.Collections.Generic;
 using System.Text;
 using data = BE.DAL.DO.Objetos;
 using dal = BE.DAL;
-using System.Threading.Tasks;
 using BE.DAL.DO.Interfaces;
+using System.Threading.Tasks;
 using BE.DAL.EF;
 
 namespace BE.BS
 {
     public class Categories : ICRUD<data.Categories>
     {
-      
         private dal.Categories _dal;
-
         public Categories(NDbContext dbContext)
         {
             _dal = new dal.Categories(dbContext);
-
         }
         public void Delete(data.Categories t)
         {
@@ -46,7 +43,7 @@ namespace BE.BS
 
         public void Insert(data.Categories t)
         {
-             _dal.Insert(t);
+            _dal.Insert(t);
         }
 
         public void Update(data.Categories t)

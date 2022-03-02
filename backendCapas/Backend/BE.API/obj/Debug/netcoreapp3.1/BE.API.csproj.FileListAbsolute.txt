@@ -83,13 +83,11 @@ C:\Users\ellis\source\repos\PrograAvanzadaMarianaEllis\backendCapas\Backend\BE.A
 C:\Users\ellis\source\repos\PrograAvanzadaMarianaEllis\backendCapas\Backend\BE.API\obj\Debug\netcoreapp3.1\BE.API.genruntimeconfig.cache
 C:\Users\ellis\source\repos\PrograAvanzadaMarianaEllis\backendCapas\Backend\BE.API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\ellis\source\repos\PrograAvanzadaMarianaEllis\backendCapas\Backend\BE.API\obj\Debug\netcoreapp3.1\BE.API.csproj.AssemblyReference.cache
-C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\obj\Debug\netcoreapp3.1\BE.API.dll
-C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\obj\Debug\netcoreapp3.1\BE.API.pdb
-C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\bin\Debug\netcoreapp3.1\API.deps.json
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\bin\Debug\netcoreapp3.1\API.runtimeconfig.json
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\bin\Debug\netcoreapp3.1\API.runtimeconfig.dev.json
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\bin\Debug\netcoreapp3.1\API.exe
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\bin\Debug\netcoreapp3.1\appsettings.json
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\bin\Debug\netcoreapp3.1\BE.API.exe
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\bin\Debug\netcoreapp3.1\BE.API.deps.json
@@ -255,4 +253,6 @@ C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backe
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\obj\Debug\netcoreapp3.1\BE.API.RazorTargetAssemblyInfo.cs
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\obj\Debug\netcoreapp3.1\BE.API.Views.pdb
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\obj\Debug\netcoreapp3.1\BE.API.csproj.CopyComplete
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\obj\Debug\netcoreapp3.1\BE.API.dll
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\obj\Debug\netcoreapp3.1\BE.API.pdb
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.API\obj\Debug\netcoreapp3.1\BE.API.genruntimeconfig.cache

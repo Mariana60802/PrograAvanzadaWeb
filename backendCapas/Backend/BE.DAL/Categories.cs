@@ -1,5 +1,4 @@
-﻿using BE.DAL.DO;
-using BE.DAL.DO.Interfaces;
+﻿using BE.DAL.DO.Interfaces;
 using BE.DAL.EF;
 using BE.DAL.Repository;
 using System;
@@ -7,16 +6,15 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 using data = BE.DAL.DO.Objetos;
+
 namespace BE.DAL
 {
     public class Categories : ICRUD<data.Categories>
     {
         private Repository<data.Categories> repo;
-
         public Categories(NDbContext dbContext)
         {
             repo = new Repository<data.Categories>(dbContext);
-
         }
         public void Delete(data.Categories t)
         {
@@ -52,7 +50,7 @@ namespace BE.DAL
 
         public void Update(data.Categories t)
         {
-             repo.Update(t);
+            repo.Update(t);
             repo.Commit();
         }
     }

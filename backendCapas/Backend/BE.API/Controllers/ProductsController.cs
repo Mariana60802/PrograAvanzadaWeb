@@ -10,55 +10,54 @@ namespace BE.API.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CategoriesController : Controller
+    public class ProductsController : Controller
     {
         private readonly NDbContext _context;
 
-        public CategoriesController(NDbContext context)
+        public ProductsController(NDbContext context)
         {
             _context = context;
         }
-
-        // GET: api/Categories
+        // GET: api/Products
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Categories>>> GetCategories()
+        public async Task<ActionResult<IEnumerable<Products>>> GetProducts()
         {
-           // return null;
-            return new BE.BS.Categories(_context).GetAll().ToList();
+            var res = await new BE.BS.Products(_context).GetAllAsync();
+            return res.ToList();
         }
 
-        // GET: api/Categories/5
+        // GET: api/Products/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Categories>> GetCategories(int id)
+        public async Task<ActionResult<Products>> GetProducts(int id)
         {
-            var categories = new BE.BS.Categories(_context).GetOneById(id);
+            var products = await new BE.BS.Products(_context).GetOneByIdAsync(id);
 
-            if (categories == null)
+            if (products == null)
             {
                 return NotFound();
             }
 
-            return categories;
+            return products;
         }
 
-        // PUT: api/Categories/5
+        // PUT: api/Products/5
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutCategories(int id, Categories categories)
+        public async Task<IActionResult> PutProducts(int id, Products products)
         {
-            if (id != categories.CategoryId)
+            if (id != products.ProductId)
             {
                 return BadRequest();
             }
 
             try
             {
-                new BE.BS.Categories(_context).Update(categories);
+                new BE.BS.Products(_context).Update(products);
             }
             catch (Exception ee)
             {
-                if (!CategoriesExists(id))
+                if (!ProductsExists(id))
                 {
                     return NotFound();
                 }
@@ -71,49 +70,49 @@ namespace BE.API.Controllers
             return NoContent();
         }
 
-        // POST: api/Categories
+        // POST: api/Products
         // To protect from overposting attacks, enable the specific properties you want to bind to, for
         // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
         [HttpPost]
-        public async Task<ActionResult<Categories>> PostCategories(Categories categories)
+        public async Task<ActionResult<Products>> PostProducts(Products products)
         {
             try
             {
-                new BE.BS.Categories(_context).Insert(categories);
+                new BE.BS.Products(_context).Insert(products);
             }
-            catch (Exception)
+            catch (Exception ee)
             {
                 BadRequest();
             }
 
-            return CreatedAtAction("GetCategories", new { id = categories.CategoryId }, categories);
+            return CreatedAtAction("GetProducts", new { id = products.ProductId }, products);
         }
 
-        // DELETE: api/Categories/5
+        // DELETE: api/Products/5
         [HttpDelete("{id}")]
-        public async Task<ActionResult<Categories>> DeleteCategories(int id)
+        public async Task<ActionResult<Products>> DeleteProducts(int id)
         {
-            var categories = new BE.BS.Categories(_context).GetOneById(id);
-            if (categories == null)
+            var products = await new BE.BS.Products(_context).GetOneByIdAsync(id);
+            if (products == null)
             {
                 return NotFound();
             }
 
             try
             {
-                new BE.BS.Categories(_context).Delete(categories);
+                new BE.BS.Products(_context).Delete(products);
             }
             catch (Exception)
             {
                 BadRequest();
             }
 
-            return categories;
+            return products;
         }
 
-        private bool CategoriesExists(int id)
+        private bool ProductsExists(int id)
         {
-            return (new BE.BS.Categories(_context).GetOneById(id) != null);
+            return (new BE.BS.Products(_context).GetOneById(id) != null);
         }
     }
 }
