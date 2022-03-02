@@ -9,7 +9,7 @@ using BE.DAL.EF;
 
 namespace BE.BS
 {
-    class Categories : ICRUD<data.Categories>
+    public class Categories : ICRUD<data.Categories>
     {
       
         private dal.Categories _dal;

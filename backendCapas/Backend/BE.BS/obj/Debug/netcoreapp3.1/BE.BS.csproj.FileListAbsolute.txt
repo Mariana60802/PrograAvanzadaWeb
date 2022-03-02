@@ -10,3 +10,33 @@ C:\Users\ellis\source\repos\PrograAvanzadaMarianaEllis\backendCapas\Backend\BE.B
 C:\Users\ellis\source\repos\PrograAvanzadaMarianaEllis\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\BE.BS.runtimeconfig.json
 C:\Users\ellis\source\repos\PrograAvanzadaMarianaEllis\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\BE.BS.runtimeconfig.dev.json
 C:\Users\ellis\source\repos\PrograAvanzadaMarianaEllis\backendCapas\Backend\BE.BS\obj\Debug\netcoreapp3.1\BE.BS.genruntimeconfig.cache
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\obj\Debug\netcoreapp3.1\BE.BS.csproj.AssemblyReference.cache
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\obj\Debug\netcoreapp3.1\BE.BS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\obj\Debug\netcoreapp3.1\BE.BS.AssemblyInfoInputs.cache
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\obj\Debug\netcoreapp3.1\BE.BS.AssemblyInfo.cs
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\obj\Debug\netcoreapp3.1\BE.BS.csproj.CoreCompileInputs.cache
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\obj\Debug\netcoreapp3.1\BE.BS.dll
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\obj\Debug\netcoreapp3.1\BE.BS.pdb
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\API.deps.json
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\API.runtimeconfig.json
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\API.runtimeconfig.dev.json
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\API.exe
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\BE.BS.deps.json
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\BE.BS.runtimeconfig.json
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\BE.BS.runtimeconfig.dev.json
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\BE.BS.dll
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\BE.BS.pdb
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\API.dll
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.dll
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.DO.dll
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.EF.dll
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.Repository.dll
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.DO.pdb
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.pdb
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\API.pdb
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.EF.pdb
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\bin\Debug\netcoreapp3.1\BE.DAL.Repository.pdb
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\obj\Debug\netcoreapp3.1\BE.BS.csproj.CopyComplete
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\BE.BS\obj\Debug\netcoreapp3.1\BE.BS.genruntimeconfig.cache

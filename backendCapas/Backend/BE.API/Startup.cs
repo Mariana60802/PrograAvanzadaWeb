@@ -1,10 +1,12 @@
 using BE.DAL.EF;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,13 +27,10 @@ namespace BE.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<NDbContext>(options =>
-               options.UseSqlServer(
-               Configuration.GetConnectionString("GoodConnection")));
-            // Register the Swagger generator, defining 1 or more Swagger documents
+            options.UseSqlServer(
+                Configuration.GetConnectionString("GoodConnection")));
             services.AddSwaggerGen();
-
             services.AddControllers();
-            services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,15 +40,9 @@ namespace BE.API
             {
                 app.UseDeveloperExceptionPage();
             }
-            else
-            {
-                app.UseExceptionHandler("/Error");
-            }
 
-            app.UseStaticFiles();
             app.UseSwagger();
 
-            // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.)
             app.UseSwaggerUI();
 
             app.UseRouting();
@@ -58,7 +51,7 @@ namespace BE.API
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapControllers();
             });
         }
     }

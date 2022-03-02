@@ -2679,7 +2679,7 @@
           "Microsoft.EntityFrameworkCore": "3.1.21",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.21",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.5",
-          "Swashbuckle.AspNetCore": "6.2.3"
+          "Swashbuckle.AspNetCore": "6.2.2"
         },
         "compile": {
           "bin/placeholder/API.dll": {}
@@ -8948,16 +8948,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Degradación del paquete detectada: Swashbuckle.AspNetCore de 6.2.3 a 6.2.2. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n BE.API -> BE.DAL.EF -> API -> Swashbuckle.AspNetCore (>= 6.2.3) \r\n BE.API -> Swashbuckle.AspNetCore (>= 6.2.2)",
-      "libraryId": "Swashbuckle.AspNetCore",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  }
 }

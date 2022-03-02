@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "9XZh2yYHl7DVKSwBWe1Kku1A6OiNBXUEbI7wTAxggyB8CCWSLssC2KOq/KAwuEZTjisD1KCpDpKDQfMWRfxw7A==",
-  "success": false,
+  "dgSpecHash": "BsX2LUjOQ/cM/eDQaA9mhDgOxGWtztIV9qU2sh1YR062d2AY+g+VNnbpbbK+zDadtaKS9sU9A9CqXlcm/C//Fg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\ellis\\OneDrive\\Documentos\\Mariana\\Setimo Cuatri\\PrograAvanzadaWeb\\backendCapas\\Backend\\BE.API\\BE.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ellis\\.nuget\\packages\\automapper\\8.1.1\\automapper.8.1.1.nupkg.sha512",
@@ -172,15 +172,5 @@
     "C:\\Users\\ellis\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\ellis\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Error",
-      "message": "Degradación del paquete detectada: Swashbuckle.AspNetCore de 6.2.3 a 6.2.2. Haga referencia al paquete directamente desde el proyecto para seleccionar una versión diferente. \r\n BE.API -> BE.DAL.EF -> API -> Swashbuckle.AspNetCore (>= 6.2.3) \r\n BE.API -> Swashbuckle.AspNetCore (>= 6.2.2)",
-      "libraryId": "Swashbuckle.AspNetCore",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }
