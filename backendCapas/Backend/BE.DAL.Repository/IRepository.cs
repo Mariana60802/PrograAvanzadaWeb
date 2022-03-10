@@ -6,7 +6,7 @@ using System.Text;
 
 namespace BE.DAL.Repository
 {
-    public interface IRepository<T> where T : class
+    public interface IRepository<T> where T:class
     {
         IQueryable<T> AsQueryble();
         IEnumerable<T> GetAll();
@@ -23,4 +23,3 @@ namespace BE.DAL.Repository
         void RemoveRange(IEnumerable<T> t);
     }
 }
-

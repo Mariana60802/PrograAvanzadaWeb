@@ -275,3 +275,4 @@ C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backe
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\API\obj\Debug\netcoreapp3.1\API.dll
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\API\obj\Debug\netcoreapp3.1\API.pdb
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\API\obj\Debug\netcoreapp3.1\API.genruntimeconfig.cache
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\backendCapas\Backend\API\obj\Debug\netcoreapp3.1\API.csproj.AssemblyReference.cache

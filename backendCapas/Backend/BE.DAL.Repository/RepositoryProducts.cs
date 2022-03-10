@@ -11,7 +11,7 @@ namespace BE.DAL.Repository
 {
     public class RepositoryProducts : Repository<data.Products>, IRepositoryProducts
     {
-        public RepositoryProducts(NDbContext _dbContext) : base(_dbContext)
+        public RepositoryProducts(NDbContext _dbContext): base(_dbContext)
         {
 
         }
@@ -23,11 +23,6 @@ namespace BE.DAL.Repository
         public async Task<Products> GetOneByIdAsync(int id)
         {
             return await _db.Products.Include(n => n.Category).SingleOrDefaultAsync(n => n.ProductId == id);
-        }
-
-        public Task<Products> GetOnById(int id)
-        {
-            throw new NotImplementedException();
         }
 
         private NDbContext _db

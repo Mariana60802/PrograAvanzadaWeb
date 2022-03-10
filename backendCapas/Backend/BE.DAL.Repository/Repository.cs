@@ -61,7 +61,7 @@ namespace BE.DAL.Repository
         {
             try
             {
-                if (dbContext.Entry<T>(t).State == Microsoft.EntityFrameworkCore.EntityState.Detached)
+                if(dbContext.Entry<T>(t).State == Microsoft.EntityFrameworkCore.EntityState.Detached)
                 {
                     dbContext.Entry<T>(t).State = Microsoft.EntityFrameworkCore.EntityState.Added;
                 }
