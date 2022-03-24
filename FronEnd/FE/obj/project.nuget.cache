@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Sf53QfwR+jx5K0QxndY6uNs+TeE+Vbzkq13tfDgnbDe6Jk7LGhttbx9l46YcR0k0fvr8SkqzU2L+GDx+LmouRw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ellis\\OneDrive\\Documentos\\Mariana\\Setimo Cuatri\\PrograAvanzadaWeb\\FronEnd\\FE\\FE.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ellis\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
