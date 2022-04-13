@@ -284,7 +284,6 @@ C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FronE
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FronEnd\FE.W\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FronEnd\FE.W\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FronEnd\FE.W\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FronEnd\FE.W\obj\Debug\netcoreapp3.1\FE.W.csproj.AssemblyReference.cache
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FronEnd\FE.W\obj\Debug\netcoreapp3.1\FE.W.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FronEnd\FE.W\obj\Debug\netcoreapp3.1\FE.W.AssemblyInfoInputs.cache
 C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FronEnd\FE.W\obj\Debug\netcoreapp3.1\FE.W.AssemblyInfo.cs

@@ -6,57 +6,39 @@ using Microsoft.AspNetCore.Mvc;
 using FE.Models;
 using System.Net.Http;
 using Newtonsoft.Json;
+using FE.Servicios;
 
 namespace FE.Controllers
 {
     public class CategoriesController : Controller
     {
-        string baseurl = "http://localhost:9520";
-        //private readonly NorthwindContext _context;
+        private readonly ICategoriesService categoriesService;
 
-        /*public CategoriesController(NorthwindContext context)
+        public CategoriesController(ICategoriesService _categoriesService)
         {
-            _context = context;
-        }*/
+            categoriesService = _categoriesService;
+        }
 
         // GET: Categories
         public async Task<IActionResult> Index()
         {
-            List<Categories> list = new List<Categories>();
-
-            using (var cl = new HttpClient())
-            {
-                cl.BaseAddress = new Uri(baseurl);
-                cl.DefaultRequestHeaders.Clear();
-                cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = await cl.GetAsync("api/Categories");
-
-                if (res.IsSuccessStatusCode)
-                {
-                    var auxres = res.Content.ReadAsStringAsync().Result;
-                    list = JsonConvert.DeserializeObject<List<Categories>>(auxres);
-                }
-            }
-            // return View(await _context.Categories.ToListAsync());
-            return View(list);
+            return View(categoriesService.GetAll());
         }
-
         // GET: Categories/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-             if (id == null)
-             {
-                 return NotFound();
-             }
+            if (id == null)
+            {
+                return NotFound();
+            }
 
-            var categories = GetById(id);
+            var categories = categoriesService.GetOneById((int)id);
+            if (categories == null)
+            {
+                return NotFound();
+            }
 
-             if (categories == null)
-             {
-                 return NotFound();
-             }
-             return View(categories);
-            
+            return View(categories);
         }
 
         // GET: Categories/Create
@@ -73,25 +55,9 @@ namespace FE.Controllers
         public async Task<IActionResult> Create([Bind("CategoryId,CategoryName,Description,Picture")] Categories categories)
         {
             if (ModelState.IsValid)
-             {
-                /*context.Add(categories);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));*/
-
-                using (var cl = new HttpClient())
-                {
-                    cl.BaseAddress = new Uri(baseurl);
-                    var content = JsonConvert.SerializeObject(categories);
-                    var buffer = System.Text.Encoding.UTF8.GetBytes(content);
-                    var byteContent = new ByteArrayContent(buffer);
-                    byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
-                    var postTask = cl.PostAsync("api/Categories", byteContent).Result;
-
-                    if (postTask.IsSuccessStatusCode)
-                    {
-                        return RedirectToAction("Index");
-                    }
-                }
+            {
+                categoriesService.Insert(categories);
+                return RedirectToAction(nameof(Index));
             }
             return View(categories);
         }
@@ -99,17 +65,17 @@ namespace FE.Controllers
         // GET: Categories/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-              if (id == null)
-              {
-                  return NotFound();
-              }
+            if (id == null)
+            {
+                return NotFound();
+            }
 
-            var categories = GetById(id);
-              if (categories == null)
-              {
-                  return NotFound();
-              }
-              return View(categories);
+            var categories = categoriesService.GetOneById((int)id);
+            if (categories == null)
+            {
+                return NotFound();
+            }
+            return View(categories);
         }
 
         // POST: Categories/Edit/5
@@ -119,61 +85,48 @@ namespace FE.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("CategoryId,CategoryName,Description,Picture")] Categories categories)
         {
-             if (id != categories.CategoryId)
-             {
-                 return NotFound();
-             }
-            
-             if (ModelState.IsValid)
-             {
-                 try
-                 {
-                    using (var cl = new HttpClient())
-                    {
-                        cl.BaseAddress = new Uri(baseurl);
-                        var content = JsonConvert.SerializeObject(categories);
-                        var buffer = System.Text.Encoding.UTF8.GetBytes(content);
-                        var byteContent = new ByteArrayContent(buffer);
-                        byteContent.Headers.ContentType = new System.Net.Http.Headers.MediaTypeHeaderValue("application/json");
-                        var postTask = cl.PutAsync("api/Categories/" + id, byteContent).Result;
+            if (id != categories.CategoryId)
+            {
+                return NotFound();
+            }
 
-                        if (postTask.IsSuccessStatusCode)
-                        {
-                            return RedirectToAction("Index");
-                        }
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    categoriesService.Update(categories);
+                }
+                catch (Exception ee)
+                {
+                    if (!CategoriesExists(categories.CategoryId))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
                     }
                 }
-                 catch (Exception)
-                 {
-                     if (!CategoriesExists(categories.CategoryId))
-                     {
-                         return NotFound();
-                     }
-                     else
-                     {
-                         throw;
-                     }
-                 }
-                 return RedirectToAction(nameof(Index));
-             }
-             return View(categories);
+                return RedirectToAction(nameof(Index));
+            }
+            return View(categories);
         }
 
         // GET: Categories/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-             if (id == null)
-             {
-                 return NotFound();
-             }
+            if (id == null)
+            {
+                return NotFound();
+            }
 
-            var categories = GetById(id);
-             if (categories == null)
-             {
-                 return NotFound();
-             }
+            var categories = categoriesService.GetOneById((int)id);
+            if (categories == null)
+            {
+                return NotFound();
+            }
 
-             return View(categories);
+            return View(categories);
         }
 
         // POST: Categories/Delete/5
@@ -181,46 +134,14 @@ namespace FE.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var categories = GetById(id);
-
-            using (var cl = new HttpClient())
-            {
-                cl.BaseAddress = new Uri(baseurl);
-                cl.DefaultRequestHeaders.Clear();
-                cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res = await cl.DeleteAsync("api/Categories/" + id);
-
-                if (res.IsSuccessStatusCode)
-                {
-                    return RedirectToAction("Index");
-                }
-            }
-            return RedirectToAction("Index");
+            var categories = categoriesService.GetOneById((int)id);
+            categoriesService.Delete(categories);
+            return RedirectToAction(nameof(Index));
         }
 
         private bool CategoriesExists(int id)
         {
-            return GetById(id)!=null;
-        }
-
-        private Categories GetById( int? id)
-        {
-            Categories aux = new Categories();
-
-            using (var cl = new HttpClient())
-            {
-                cl.BaseAddress = new Uri(baseurl);
-                cl.DefaultRequestHeaders.Clear();
-                cl.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                HttpResponseMessage res =  cl.GetAsync("api/Categories/" + id).Result;
-
-                if (res.IsSuccessStatusCode)
-                {
-                    var auxres = res.Content.ReadAsStringAsync().Result;
-                    aux = JsonConvert.DeserializeObject<Categories>(auxres);
-                }
-            }
-            return aux;
+            return (categoriesService.GetOneById((int)id) != null);
         }
     }
 }
