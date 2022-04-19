@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ii6sIJhro1HE5asukLcgWeOtRqP1uiCDT8JLxCSlzwaqIt+8omSi6pQZtqRo/+ZCPFmLIsjqL33hRHWtQVnMZw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ellis\\OneDrive\\Documentos\\Mariana\\Setimo Cuatri\\PrograAvanzadaWeb\\PracticaExamen2\\Base\\FE\\FE.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ellis\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
