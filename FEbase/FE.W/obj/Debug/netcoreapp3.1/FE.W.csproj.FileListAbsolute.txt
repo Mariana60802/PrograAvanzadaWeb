@@ -1,0 +1,8 @@
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FEbase\FE.W\obj\Debug\netcoreapp3.1\FE.W.csproj.AssemblyReference.cache
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FEbase\FE.W\obj\Debug\netcoreapp3.1\FE.W.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FEbase\FE.W\obj\Debug\netcoreapp3.1\FE.W.AssemblyInfoInputs.cache
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FEbase\FE.W\obj\Debug\netcoreapp3.1\FE.W.AssemblyInfo.cs
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FEbase\FE.W\obj\Debug\netcoreapp3.1\FE.W.csproj.CoreCompileInputs.cache
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FEbase\FE.W\obj\Debug\netcoreapp3.1\FE.W.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FEbase\FE.W\obj\Debug\netcoreapp3.1\FE.W.RazorAssemblyInfo.cache
+C:\Users\ellis\OneDrive\Documentos\Mariana\Setimo Cuatri\PrograAvanzadaWeb\FEbase\FE.W\obj\Debug\netcoreapp3.1\FE.W.RazorAssemblyInfo.cs
